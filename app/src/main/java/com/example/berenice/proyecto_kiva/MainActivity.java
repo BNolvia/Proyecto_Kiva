@@ -1,9 +1,11 @@
 package com.example.berenice.proyecto_kiva;
 
+import android.content.Context;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
 public class MainActivity extends AppCompatActivity {
+    public static Context mContext;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

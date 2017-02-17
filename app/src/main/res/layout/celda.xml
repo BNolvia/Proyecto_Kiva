@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="178dp"
+            android:layout_height="104dp"
+            android:layout_weight="0.02"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Large Text"
+                android:id="@+id/titulo"
+                android:textColor="#20E745"
+                android:typeface="serif"
+                android:textSize="19dp"
+                android:textAlignment="center"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Small text"
+                android:textSize="17dp"
+                android:id="@+id/descripcion"
+                android:textColor="#3B7846"
+                android:textStyle="normal|bold|italic"
+                android:textAlignment="center" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Medium Text"
+                android:textSize="16dp"
+                android:id="@+id/subTitulo"
+                android:textColor="#070707"
+                android:textAlignment="viewStart" />
+
+        </LinearLayout>
+
+        <com.android.volley.toolbox.NetworkImageView
+            android:text="TextView"
+            android:layout_width="154dp"
+            android:layout_height="133dp"
+            android:id="@+id/imagen"
+            android:layout_weight="0.01" />
+
+    </LinearLayout>
+</LinearLayout>
